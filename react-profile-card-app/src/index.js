@@ -45,7 +45,12 @@ function SkillList() {
   return (
     <ul className="skill-list">
       {skills.map((skill) => (
-        <Skill name={skill.name} level={skill.level} color={skill.color} />
+        <Skill
+          name={skill.name}
+          level={skill.level}
+          color={skill.color}
+          key={skill.name}
+        />
       ))}
     </ul>
   );

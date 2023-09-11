@@ -9,9 +9,11 @@
 body {
   font-family: "IBM Plex Mono", sans-serif;
   background-color: #f7f7f7;
-  /* center the body */
+  /* Center the content vertically and horizontally */
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
 }
 
 h1 {
@@ -23,14 +25,19 @@ h3 {
 }
 
 .card {
-  width: 500px;
+  max-width: 500px; /* Use max-width for responsiveness */
+  width: 100%; /* Ensure the card takes the full width on small screens */
   margin: 40px;
   border: 4px solid #222;
+  overflow: hidden; /* Prevent content overflow */
+  background-color: #fff; /* Set a background color for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
 .card::after {
   content: "";
   display: block;
+  clear: both; /* Clear the floats inside the card */
 }
 
 .avatar {
