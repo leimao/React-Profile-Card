@@ -14,7 +14,7 @@ function Intro() {
       <h1>Ami Enan</h1>
       <h3 style={{ fontStyle: "italic" }}>From "Lupin the 3rd Part 5"</h3>
       <p>
-        Hello, Underworld! Ami is the daughter of Enzo Bron, CEO of the IT
+        Hello, Underworld! Ami Enan is the daughter of Enzo Bron, CEO of the IT
         conglomerate Shake Hanz Corporation currently at age fourteen. Ami was
         kidnapped when she was six and later she demonstrated the talent in
         computer programming during her imprisonment. When the gangsters noticed
