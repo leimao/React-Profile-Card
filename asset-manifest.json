@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Profile-Card-Ami-Enan/static/css/main.441904d5.css",
+    "main.js": "/React-Profile-Card-Ami-Enan/static/js/main.e707c167.js",
+    "index.html": "/React-Profile-Card-Ami-Enan/index.html",
+    "main.441904d5.css.map": "/React-Profile-Card-Ami-Enan/static/css/main.441904d5.css.map",
+    "main.e707c167.js.map": "/React-Profile-Card-Ami-Enan/static/js/main.e707c167.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.441904d5.css",
+    "static/js/main.e707c167.js"
+  ]
+}
